@@ -1,0 +1,183 @@
+<resources>
+
+    <!--key lines i.e. padding from start-->
+    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1_x2">32dp</dimen>
+    <dimen name="keyline_1_minus_4dp">12dp</dimen>
+    <dimen name="keyline_1_minus_8dp">8dp</dimen>
+    <dimen name="keyline_1_minus_8dp_by_2">4dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_2_minus_16dp">56dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Content-->
+    <dimen name="content_margin">@dimen/keyline_1_minus_8dp</dimen>
+
+    <!--// TODO -->
+    <!--body content-->
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+
+    <!--body content-->
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+
+    <!--Action Bar-->
+    <dimen name="actionbar_icon_width">48dp</dimen>
+    <dimen name="actionbar_icon_height">48dp</dimen>
+
+    <!--Card-->
+    <dimen name="card_action_bar_height">@dimen/list_item_height_singleline</dimen>
+    <dimen name="card_label_max_width">92dp</dimen>
+
+    <!--Tab-->
+    <dimen name="tab_height">48dp</dimen>
+
+    <!--BUTTON-->
+    <!--Default Button height-->
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_min_width">88dp</dimen>
+    <dimen name="button_max_width">172dp</dimen>
+    <!--Circular Button-->
+    <dimen name="circular_button_stroke_width">2dp</dimen>
+    <dimen name="circular_button_padding">2dp</dimen>
+
+    <!--List-->
+    <dimen name="list_item_height_singleline">48dp</dimen>
+    <!--elevations-->
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="headerbar_elevation">4dp</dimen>
+
+    <!--Banner atributes-->
+    <dimen name="marketplace_banner_margin_vertical">64dp</dimen>
+
+    <!--Divider-->
+    <dimen name="divider_vertical_dimension">2dp</dimen>
+    <dimen name="divider_dotted_dimension">2dp</dimen>
+    <dimen name="divider_dotted_padding">10dp</dimen>
+    <dimen name="divider_dotted_gap_width">2dp</dimen>
+    <dimen name="divider_dotted_width">2dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and screen width - multiples of 56dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">260dp</dimen>
+    <dimen name="navigation_drawer_max_width">280dp</dimen>
+    <dimen name="navigation_menu_item_height">@dimen/list_item_height_singleline</dimen>
+    <dimen name="navdrawer_item_icon_width">24dp</dimen>
+    <dimen name="navdrawer_item_icon_height">24dp</dimen>
+    <dimen name="navdrawer_chosen_account_height">156dp</dimen>
+    <dimen name="navdrawer_profile_image_margin_top">16dp</dimen>
+    <dimen name="navdrawer_profile_image_size">40dp</dimen>
+
+    <!-- Action Bar auto-hide-on-scroll behavior parameters -->
+    <dimen name="action_bar_auto_hide_min_y">152dp</dimen>
+    <dimen name="action_bar_auto_hide_sensivity">48dp</dimen>
+
+    <!--Custom EDIT TEXT-->
+    <dimen name="drawable_padding">@dimen/keyline_1_minus_8dp</dimen>
+
+    <!--LOGIN SCREEN-->
+    <dimen name="login_marketplace_banner_margin_vertical">
+        @dimen/marketplace_banner_margin_vertical
+    </dimen>
+    <dimen name="login_login_text">22sp</dimen>
+    <dimen name="login_login_margin_left">32dp</dimen>
+    <dimen name="login_textbox_height">35dp</dimen>
+    <dimen name="login_inset_margin_horizontal">24dp</dimen>
+    <dimen name="login_inset_margin_vertical">16dp</dimen>
+    <dimen name="login_button_height">40dp</dimen>
+    <dimen name="margin_username_logo">24dp</dimen>
+    <dimen name="margin_password_username">@dimen/keyline_1_minus_8dp_by_2</dimen>
+    <dimen name="margin_login_button">24dp</dimen>
+    <dimen name="margin_forgot_password">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="margin_forgot_password_signup_text">48dp</dimen>
+    <dimen name="margin_signup_tos">16dp</dimen>
+    <dimen name="login_bottomtext_margin_vertical">25dp</dimen>
+    <dimen name="login_textsize3">14sp</dimen>
+
+    <!--ACCOUNT-->
+    <dimen name="profile_item_height">@dimen/list_item_height_singleline</dimen>
+    <dimen name="account_profile_image_size">40dp</dimen>
+
+    <!--FORGOT PASSWORD SCREEN-->
+    <dimen name="forgot_password_marketplace_banner_margin_vertical">
+        @dimen/marketplace_banner_margin_vertical
+    </dimen>
+    <dimen name="forgot_password_margin_vertical">16dp</dimen>
+    <dimen name="forgot_password_ok_button_margin_top">40dp</dimen>
+    <dimen name="forgot_password_margin_horizontal">48dp</dimen>
+    <dimen name="forgot_password_divider_margin_horizontal">24dp</dimen>
+    <dimen name="forgot_password_margin_top">16dp</dimen>
+    <dimen name="forgot_password_margin_bottom">16dp</dimen>
+    <dimen name="forgot_password_inset_margin_horizontal">40dp</dimen>
+    <dimen name="forgot_password_inset_margin_vertical">20dp</dimen>
+    <dimen name="forgot_password_margin_left">10dp</dimen>
+    <dimen name="forgot_password_margin_right">10dp</dimen>
+    <dimen name="forgot_password_button_height">40dp</dimen>
+    <dimen name="forgot_password_button_margin_top">30dp</dimen>
+    <dimen name="forgot_password_padding">10dp</dimen>
+
+    <!--SPLASH SCREEN-->
+    <dimen name="splash_progress_size">32dp</dimen>
+    <dimen name="splash_progress_margin_top">30dp</dimen>
+
+    <!--HOME/DASHBOARD-->
+    <dimen name="dashboard_card_min_height">168dp</dimen>
+
+    <!--LISTING SCREEN-->
+    <!--Listing List Row-->
+    <dimen name="list_row_root_view_padding">4dp</dimen>
+    <dimen name="list_row_inner_root_view_padding">4dp</dimen>
+    <dimen name="list_row_image_container_width">100dp</dimen>
+    <dimen name="list_row_container_height">100dp</dimen>
+    <dimen name="list_row_image_width">96dp</dimen>
+    <dimen name="list_row_image_height">96dp</dimen>
+
+    <!--FILTER - SORT WIDGET-->
+    <dimen name="filter_sort_widget_height">@dimen/list_item_height_singleline</dimen>
+
+    <!-- Filter screen -->
+    <dimen name="filter_list_item_height">@dimen/list_item_height_singleline</dimen>
+
+    <dimen name="dialog_content_padding">24dp</dimen>
+
+    <!--Material Edit Text-->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+
+    <dimen name="touch_raise">2dp</dimen>
+
+    <!--Notification-->
+    <dimen name="notification_icon_min_width">48dp</dimen>
+    <dimen name="notification_icon_min_height">48dp</dimen>
+
+    <!--Detail Screen List Header-->
+    <dimen name="detail_list_row_image_height">128dp</dimen>
+
+    <dimen name="color_indicator_size">8dp</dimen>
+    
+    <!-- Feedback Screen -->
+    <dimen name="feedback_switch_padding">@dimen/keyline_1_minus_8dp</dimen>
+    <dimen name="feedback_message_top_margin">36dp</dimen>
+
+    <dimen name="bottom_bar_height">@dimen/list_item_height_singleline</dimen>
+    <dimen name="badge_text_size">@dimen/text_size_11sp</dimen>
+
+</resources>

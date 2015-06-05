@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parse_app_id">x4Iq2AaH0h0hKAl68H9MqZF13ZvwmutU7D85P8I3</string>
+    <string name="parse_client_key">lDC4ToTMNi8Q4qmbpvFvZHSiAPAJvOwcwSd1PyPZ</string>
+
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">ParseStarterProject</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
