@@ -9,9 +9,14 @@ import com.parse.Parse;
 import com.parse.ParseAnalytics;
 import com.parse.ParseInstallation;
 import com.parse.broker.R;
+import com.parse.broker.apis.CustomerFetcher;
 import com.parse.broker.utils.FetchResources;
 
+import org.codehaus.jackson.map.ObjectMapper;
+
 public class MainActivity extends BaseActivity {
+
+    private static final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +25,8 @@ public class MainActivity extends BaseActivity {
         Parse.initialize(this, FetchResources.getString(R.string.parse_app_id), FetchResources.getString(R.string.parse_client_key));
         ParseInstallation.getCurrentInstallation().saveInBackground();
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
+
+        new CustomerFetcher(1, objectMapper).execute();
     }
 
     @Override
